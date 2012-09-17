@@ -10,10 +10,8 @@
 修改cps360.demo.CPS360JDBCDemo 中数据库连接字符串
 
 // 驱动程序名
-protected String driver = "com.mysql.jdbc.Driver";
-
-// URL指向要访问的数据库名
-
+protected String driver = "com.mysql.jdbc.Driver";   
+// URL指向要访问的数据库名    
 protected String url = "jdbc:mysql://127.0.0.1:3306/db_test";
 
 // MySQL配置时的用户名
